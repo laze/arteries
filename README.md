@@ -18,3 +18,9 @@ _"Legalább 2 felhasználót tartalmazzon."_
 * `artisan make:seed UserSeeder`
 * Azért nem csináltam Faker-rel, hogy ki lehessen nézni innen, hogy kmilyen adatokkal lehet belépni.
 
+#### 06/24/2020 22.13
+_Bejelentkezés - "A felhasználó be tudjon jelentkezni a Laravel alapértelmezett bejelentkezési felületén (auth quickstart)"_
+
+#### 06/24/2020 22.24
+* `artisan make:model Item -m -c` - Létrehozzuk a modellt, a migrációt és kontrollert.
+* `artisan make:seed ItemSeeder`
