@@ -16,3 +16,5 @@ Projekt kezdése, Github repository létrehozása, Laravel telepítés, virtuál
 #### 06/24/2020 21.57
 _"Legalább 2 felhasználót tartalmazzon."_
 * `artisan make:seed UserSeeder`
+* Azért nem csináltam Faker-rel, hogy ki lehessen nézni innen, hogy kmilyen adatokkal lehet belépni.
+
