@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header">Dashboard</div>
+                <div class="card-header">Items</div>
 
                 <div class="card-body">
                     @if (session('status'))
@@ -14,10 +14,13 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    {{$dataTable->table()}}
                 </div>
             </div>
         </div>
     </div>
 </div>
 @endsection
+@push('scripts')
+{{$dataTable->scripts()}}
+@endpush
