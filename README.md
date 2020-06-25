@@ -31,6 +31,6 @@ _Bejelentkezés - "A felhasználó be tudjon jelentkezni a Laravel alapértelmez
 
 #### 06/25/2020 19.04
 * Lista oldal bejelentkezés után.
-
+* Itt beraktam a DataTables-t az alábbiak szerint: https://yajrabox.com/docs/laravel-datatables/master/quick-starter
 
 ### Telepítés
