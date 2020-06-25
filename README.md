@@ -24,3 +24,6 @@ _Bejelentkezés - "A felhasználó be tudjon jelentkezni a Laravel alapértelmez
 #### 06/24/2020 22.24
 * `artisan make:model Item -m -c` - Létrehozzuk a modellt, a migrációt és kontrollert.
 * `artisan make:seed ItemSeeder`
+* `artisan db:seed`
+
+### Telepítés
